@@ -14,8 +14,6 @@
 
 @implementation SecondViewController
 
-
-
 - (void)viewDidLoad
 {
     [super viewDidLoad];
