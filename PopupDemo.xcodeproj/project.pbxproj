@@ -14,6 +14,7 @@
 		180D8915172A567400689D67 /* close.png in Resources */ = {isa = PBXBuildFile; fileRef = 180D8914172A567400689D67 /* close.png */; };
 		180D8917172A56FE00689D67 /* login.png in Resources */ = {isa = PBXBuildFile; fileRef = 180D8916172A56FE00689D67 /* login.png */; };
 		180D8919172A588600689D67 /* 54919.png in Resources */ = {isa = PBXBuildFile; fileRef = 180D8918172A588600689D67 /* 54919.png */; };
+		183646A9172E576C0027E235 /* crdave1988ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 183646A8172E576C0027E235 /* crdave1988ViewController.m */; };
 		189362F3172A4B35000917B4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 189362F2172A4B35000917B4 /* UIKit.framework */; };
 		189362F5172A4B35000917B4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 189362F4172A4B35000917B4 /* Foundation.framework */; };
 		189362F7172A4B35000917B4 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 189362F6172A4B35000917B4 /* CoreGraphics.framework */; };
@@ -37,6 +38,8 @@
 		180D8914172A567400689D67 /* close.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = close.png; sourceTree = "<group>"; };
 		180D8916172A56FE00689D67 /* login.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = login.png; sourceTree = "<group>"; };
 		180D8918172A588600689D67 /* 54919.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 54919.png; sourceTree = "<group>"; };
+		183646A7172E576C0027E235 /* crdave1988ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = crdave1988ViewController.h; sourceTree = "<group>"; };
+		183646A8172E576C0027E235 /* crdave1988ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = crdave1988ViewController.m; sourceTree = "<group>"; };
 		189362EF172A4B35000917B4 /* PopupDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PopupDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		189362F2172A4B35000917B4 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		189362F4172A4B35000917B4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -111,6 +114,8 @@
 				180D890E172A4E7300689D67 /* SecondViewController.m */,
 				36BD4DD4172E565C00377311 /* testinfdemoViewController.h */,
 				36BD4DD5172E565C00377311 /* testinfdemoViewController.m */,
+				183646A7172E576C0027E235 /* crdave1988ViewController.h */,
+				183646A8172E576C0027E235 /* crdave1988ViewController.m */,
 			);
 			path = PopupDemo;
 			sourceTree = "<group>";
@@ -212,6 +217,7 @@
 				1893630F172A4B35000917B4 /* ViewController.m in Sources */,
 				180D890F172A4E7300689D67 /* SecondViewController.m in Sources */,
 				36BD4DD6172E565C00377311 /* testinfdemoViewController.m in Sources */,
+				183646A9172E576C0027E235 /* crdave1988ViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
