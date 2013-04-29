@@ -16,16 +16,28 @@
 
 - (void)viewDidLoad
 {
-    [super viewDidLoad];
-    
-    [self setModalPresentationStyle:UIModalPresentationCurrentContext];
-    
+	@try
+	{
+		[super viewDidLoad];
+		
+		[self setModalPresentationStyle:UIModalPresentationCurrentContext];
+	}
+	@catch (NSException *exception)
+	{
+		NSLog(@"Exception %@",exception);
+	}
 }
 
 - (void)didReceiveMemoryWarning
 {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+	@try
+	{
+		[super didReceiveMemoryWarning];
+	}
+	@catch (NSException *exception)
+	{
+		NSLog(@"Exception %@",exception);
+	}
 }
 
 @end

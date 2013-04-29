@@ -19,17 +19,11 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	NSLog(@"Load");
 }
 
-- (void) viewDidAppear:(BOOL)animated
-{
-    NSLog(@"Display");
-}
 - (void)didReceiveMemoryWarning
 {
     [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
 }
 
 - (IBAction)dismicclick:(id)sender
