@@ -11,4 +11,5 @@
 
 @interface ViewController : UIViewController
 
+@property (strong, nonatomic) IBOutlet UIButton *removeButton;
 @end
