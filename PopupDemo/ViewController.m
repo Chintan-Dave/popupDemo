@@ -20,7 +20,8 @@
 	{
 		[super viewDidLoad];
 		
-		[self setModalPresentationStyle:UIModalPresentationCurrentContext];
+		[self.navigationController setModalPresentationStyle:UIModalPresentationCurrentContext];
+        [self setModalPresentationStyle:UIModalPresentationCurrentContext];
 	}
 	@catch (NSException *exception)
 	{
